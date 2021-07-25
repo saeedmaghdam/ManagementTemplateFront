@@ -1,0 +1,19 @@
+* {
+	-webkit-user-select: none; /* Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
+}
+
+footer {
+	height: 30px;
+	background: rgb(41, 41, 41);
+}
+
+p {
+	vertical-align: middle;
+	color: white;
+	height: 100%;
+	display: initial;
+	font-size: 10px;
+}

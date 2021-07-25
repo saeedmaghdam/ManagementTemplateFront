@@ -1,0 +1,23 @@
+<nav>
+	<div class="nav-menu">
+		<ul>
+			<li><a routerLink="/"><i nz-icon nzType="home" nzTheme="fill"></i></a></li>
+			<li><a routerLink="/setting">Settings</a></li>
+		</ul>
+	</div>
+	<div class="nav-account">
+		<ul>
+			<li><a nz-dropdown nzTrigger="click" [nzDropdownMenu]="menu"><i nz-icon nzType="caret-down"
+						nzTheme="fill"></i> Saeed</a>
+				<nz-dropdown-menu #menu="nzDropdownMenu">
+					<ul nz-menu>
+						<li nz-menu-item><a routerLink="/profile">Profile</a></li>
+						<li nz-menu-item><a routerLink="/profile/changePassword">Change Password</a></li>
+						<li nz-menu-divider></li>
+						<li nz-menu-item><a routerLink="/logout">Sign Out</a></li>
+					</ul>
+				</nz-dropdown-menu>
+			</li>
+		</ul>
+	</div>
+</nav>

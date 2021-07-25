@@ -1,0 +1,17 @@
+<ul nz-menu nzMode="inline" style="width: 200px;">
+	<li nz-submenu (nzOpenChange)="openHandler('sub1')" nzTitle="Price Adjustment" nzIcon="dollar">
+		<ul>
+			<li nz-menu-group nzTitle="Web" class="menu-group">
+				<ul>
+					<li nz-menu-item><a routerLink="">Price List</a></li>
+					<li nz-menu-item><a routerLink="">Price Source</a></li>
+				</ul>
+			</li>
+			<li nz-menu-group nzTitle="Service" class="menu-group">
+				<ul>
+					<li nz-menu-item>Service Settings</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
