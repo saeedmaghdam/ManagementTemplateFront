@@ -17,3 +17,11 @@ p {
 	display: initial;
 	font-size: 10px;
 }
+
+::ng-deep nz-footer {
+	position: fixed!important;
+	left: 0!important;
+	bottom: 0!important;
+	z-index: 999!important;
+	width: 100%!important;
+}

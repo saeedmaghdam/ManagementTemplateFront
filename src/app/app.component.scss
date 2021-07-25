@@ -36,11 +36,12 @@ nz-footer {
 }
 
 nz-content {
-	position: absolute;
+	position: fixed!important;
 	height: calc(100% - 70px) !important;
-	left: 200px;
+	left: 200px!important;
+	top: 40px!important;
 	width: calc(100% - 200px) !important;
-	background: white;
+	background: white!important;
 }
 
 nz-sider {

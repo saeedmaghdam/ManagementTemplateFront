@@ -8,3 +8,10 @@
 :host ::ng-deep span, :host ::ng-deep .ant-menu-item-group-title, :host ::ng-deep a, :host ::ng-deep [nz-menu-item] {
 	font-size: 13px;
 }
+
+::ng-deep nz-sider {
+	position: fixed!important;
+	left: 0!important;
+	top: 40px!important;
+	z-index: 999!important;
+}
