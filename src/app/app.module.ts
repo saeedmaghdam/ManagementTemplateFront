@@ -3,9 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { SettingComponent } from './setting/setting.component';
-import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './layout/components/navbar/navbar.component';
+import { SettingComponent } from './page/components/setting/setting.component';
+import { HomeComponent } from './page/components/home/home.component';
 import { en_US, NZ_I18N } from 'ng-zorro-antd/i18n';
 import { registerLocaleData } from '@angular/common';
 import en from '@angular/common/locales/en';
@@ -16,8 +16,8 @@ import { IconsProviderModule } from './icons-provider.module';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { NzIconModule } from 'ng-zorro-antd/icon';
-import { SiderComponent } from './sider/sider.component';
-import { FooterComponent } from './footer/footer.component';
+import { SiderComponent } from './layout/components/sider/sider.component';
+import { FooterComponent } from './layout/components/footer/footer.component';
 import { NzDropDownModule } from 'ng-zorro-antd/dropdown';
 
 registerLocaleData(en);

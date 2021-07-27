@@ -8,7 +8,8 @@ import { Component, Inject, OnInit } from '@angular/core';
 export class SettingComponent implements OnInit {
 
   constructor() {
-   }
+
+  }
 
   ngOnInit(): void {
   }
